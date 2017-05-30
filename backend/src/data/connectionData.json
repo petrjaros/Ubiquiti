@@ -1,0 +1,11 @@
+{
+  "webSocket": {
+    "port": 1337
+  },
+  "sshConnection": {
+    "host": "ubiquiti.4smart.eu",
+    "port": 51200,
+    "user": "petr",
+    "password": "Ub1q1t1"
+  }
+}
