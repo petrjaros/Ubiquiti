@@ -1,6 +1,6 @@
 {
   "webSocket": {
-    "host": "ws://127.0.0.1",
+    "host": "ws://ubnt-backend.herokuapp.com",
     "port": 1337
   }
 }
