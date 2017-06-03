@@ -4,7 +4,8 @@ import DeviceTerminal from './DeviceTerminal.js';
 import connectionData from './data/connectionData.json';
 
 var server = http.createServer(() => {});
-server.listen(connectionData.webSocket.port, () => {});
+//process.env.PORT takes settings from Heroku settings
+server.listen(process.env.PORT || connectionData.webSocket.port, () => {});
 
 var wsServer = new WebSocketServer({
   httpServer: server
